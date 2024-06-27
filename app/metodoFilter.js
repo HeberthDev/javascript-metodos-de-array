@@ -10,5 +10,5 @@ function filtrarLivros() {
         livro.categoria == categoria
     );
 
-    console.table(livrosFiltrados);
+    exibirOsLivrosNaTela(livrosFiltrados);
 }
